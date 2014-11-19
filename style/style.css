@@ -1,0 +1,275 @@
+
+body, html { 
+  background-image: url(http://oi61.tinypic.com/2r7pzzl.jpg);
+  background-repeat: none;
+  background-size: 100%;
+  margin: 0;
+}
+
+
+@font-face {
+    font-family: 'hazelnut_waterregular';
+    src: url('../fonts/Hazelnut/hazelnut_water-webfont.eot');
+    src: url('../fonts/Hazelnut/hazelnut_water-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Hazelnut/hazelnut_water-webfont.woff') format('woff'),
+         url('../fonts/Hazelnut/hazelnut_water-webfont.ttf') format('truetype'),
+         url('../fonts/Hazelnut/hazelnut_water-webfont.svg#hazelnut_waterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'capsuularegular';
+    src: url('../fonts/capsuula_regular_macroman/Capsuula-webfont.eot');
+    src: url('../fonts/capsuula_regular_macroman/Capsuula-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/capsuula_regular_macroman/Capsuula-webfont.woff') format('woff'),
+         url('../fonts/capsuula_regular_macroman/Capsuula-webfont.ttf') format('truetype'),
+         url('../fonts/capsuula_regular_macroman/Capsuula-webfont.svg#capsuularegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'banksiaregular';
+    src: url('../fonts/banksia_regular_macroman/banksia-webfont.eot');
+    src: url('../fonts/banksia_regular_macroman/banksia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/banksia_regular_macroman/banksia-webfont.woff') format('woff'),
+         url('../fonts/banksia_regular_macroman/banksia-webfont.ttf') format('truetype'),
+         url('../fonts/banksia_regular_macroman/banksia-webfont.svg#banksiaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+}
+ul, li {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+
+
+#nav { 
+  width: 100%;
+  top:5px;
+  position: relative;
+  text-align:center;
+  z-index: 1;
+
+}
+
+#nav ul { 
+  display: inline;
+  margin: auto;
+  width: 100%;
+}
+
+#nav ul li a { 
+  color: black;
+}
+
+#nav ul li { 
+   font-size: 20px;
+  font-family: "banksiaregular";
+  display: inline;
+  position: relative;
+  list-style: none;
+  margin: 0px 15px;
+  list-style-position: center;
+}
+
+#header { 
+  background-image: url(http://oi57.tinypic.com/23wlabm.jpg);
+  -moz-box-shadow: 0px 3px 28px #000000;
+  -webkit-box-shadow: 0px 3px 28px #000000;
+  box-shadow: 0px 3px 28px #000000;
+
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+#indhold1 {
+	z-index: 11;
+}
+
+#contentText {
+  font-size: 35px;
+  font-family: "hazelnut_waterregular";
+  text-align: center;
+  color: white;
+}
+
+#SunsetSeaView {
+  position:absolute;
+  text-align: center;
+}
+
+#nav2 {
+  -moz-box-shadow: 0px 3px 28px #000000;
+  -webkit-box-shadow: 0px 3px 28px #000000;
+  box-shadow: 0px 3px 28px #000000;
+  height:300px;
+  width:860px;
+  position:relative;
+  left:17%;
+}
+
+#SSV {
+  font-size: 30px;
+  font-family: "Lucida Sans Unicode";
+  font-weight: bold;
+  color: black;
+  float: right;
+  position:relative;
+  left: -70px;
+
+}
+
+#SSVinfo1 {
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode";
+  color: #7e7e7e;
+  position:relative;
+  float: right;
+  left: 90px;
+  top: 70px;
+}
+
+#SSVinfo2 {
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode";
+  color: #7e7e7e;
+  position:relative;
+  float: right;
+  left: 70px;
+  top: 55px;
+}
+
+#SSVinfo3 {
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode";
+  color: #7e7e7e;
+  position:relative;
+  float: right;
+  left: 47px;
+  top: 40px;
+}
+
+#linje {
+  color: #d9d6d6;
+  width: 300px;
+  float: right;
+  top: 40px;
+  left: -50px;
+  height: 1px;
+  position:relative;
+}
+
+#ADD1 {
+  background-color:#ed4512;
+  color:#ffffff;
+  font-family: "Lucida Sans Unicode";
+  font-size:15px;
+  height:50px;
+  width:160px;
+  text-decoration:none;
+  text-align:center;
+  z-index: 50;
+  float: right;
+  position:relative;
+  top:90px;
+  left:290px;
+}
+
+#SSVprice {
+  position:relative;
+  float: right;
+  top:25px;
+  left:173px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #00a8ff;
+  font-family: "Arial";
+}
+
+#addText {
+ top: 5px;
+}
+
+#SunsetSeaView {
+  display: inline;
+}
+
+.button {
+  top: -32px;
+}
+
+#Opbygning {
+position:fixed; 
+float:left;
+left: 5px;
+top:10px;
+z-index: 15;
+}
+
+#max {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7e7e7e;
+  width: 60px;
+  float: right;
+  top: 90px;
+  left: 280px;
+  height: 50px;
+  position:relative;
+
+
+}
+
+#antal {
+  font-family: "Lucida Sans Unicode";
+  float: right;
+  position: relative;
+  left: -10px;
+  font-size: 20px;
+  top: -5px;
+}
+
+#APTT2 {
+  position: relative;
+  top: 50px;
+  
+}
+
+#contact {
+  position: relative;
+  float: right;
+  top:150px;
+  left:450px;
+  font-family: Arial;
+
+}
+
+#contactus {
+  position: relative;
+  float: right;
+  top:115px;
+  left:535px;
+  font-family: Arial;
+}
+
+#Heading1 {
+  float:right;
+  position:relative;
+  left: -50px;
+  top: 140px;
+  font-family: "Calibri";
+  font-weight: lighter;
+
+}
