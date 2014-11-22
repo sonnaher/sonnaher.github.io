@@ -190,7 +190,7 @@ a:hover, a:visited, a:link, a:active {
 #SSVprice {
   position:relative;
   float: right;
-  top:25px;
+  top:55px;
   left:173px;
   font-weight: bold;
   font-size: 30px;
@@ -232,11 +232,22 @@ z-index: 15;
 
 }
 
+#test1337 {
+  position: relative;
+  left: 32px;
+  top: -20px;
+  font-size: 30px;
+  color: grey;
+  font-weight: lighter;
+  font-family: "banksiaregular";
+  float: right;
+}
+
 #antal {
   font-family: "Lucida Sans Unicode";
   float: right;
   position: relative;
-  left: -10px;
+  left: -30px;
   font-size: 20px;
   top: -5px;
 }
@@ -265,9 +276,9 @@ z-index: 15;
 }
 
 #Heading1 {
-  float:right;
+  float:left;
   position:relative;
-  left: -50px;
+  left: 150px;
   top: 140px;
   font-family: "Calibri";
   font-weight: lighter;
